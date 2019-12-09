@@ -1,0 +1,5 @@
+#1 - CREATE Dockerfile
+#2 - docker build -t myapp:version .
+#3 - docker run -d -n mongodb mongo:4
+#4 - docker run -p 3000:3000 --link mongodb myapp:version
+#5 - go to browser and see the result on 3000
